@@ -1,0 +1,43 @@
+function calculateNssf(nssf) {
+  if (gross >= tier1 && gross <= tier2) {
+    console.log(
+      employer * tier1 +
+        employee * tier1 +
+        (gross - tier1) * employer +
+        (gross - tier1) * employer +
+        (gross - tier1) * employer
+    );
+  } else {
+    console.log(
+      employer * tier1 +
+        employee * tier2 +
+        (tier1 - tier2) * employer +
+        (tier1 - tier2) * employee
+    );
+  }
+}
+const nssf = calculateNssf(nssf);
+
+function calculateNhif(Nhif) {
+  console.log(gross * 0.0275);
+  return nhif;
+}
+const nhif = calculateNhif(Nhif);
+
+function calculatePayee(payee) {
+  if (gross >= 0 && gross <= minSalary) {
+    console.log(gross * 0.01);
+  }
+  if (gross >= 24001 && gross <= 32333) {
+    console.log(gross * 0.25);
+  }
+  if (gross >= 32334 && gross <= 500000) {
+    console.log(gross * 0.3);
+  }
+  if (gross >= 500001 && gross <= 800000) {
+    console.log(gross * 0.325);
+  } else {
+    console.log(gross * 0.35);
+  }
+}
+const payee = calculatePayee(payee);

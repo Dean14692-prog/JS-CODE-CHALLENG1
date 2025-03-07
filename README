@@ -2,4 +2,4 @@ HOW TO RUN THE CODE
 
 1. Install prompt-sync in the terminal to be able to input values at terminal
 2. Use npm install prompt - sync command to install
-3. Input the marks for the Phases using enter key on the keyboard to move to the next Phase Marks input
+3. Input values and use enter key on the keyboard to move to the next input

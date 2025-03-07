@@ -7,7 +7,7 @@ function checkSpeed(speed) {
     console.log("Ok");
     return 0; // Return 0 demerit points if speed is below the limit
   } else {
-    const demeritPoints = ((speed - speedLimit) / 5);
+    const demeritPoints = (speed - speedLimit) / 5;
     console.log(`Demerit Points: ${demeritPoints}`);
     return demeritPoints; // Return the calculated demerit points
   }
@@ -20,7 +20,3 @@ function checkDemeritPoints(points) {
   }
 }
 const demeritPoints = checkDemeritPoints(points); // Call Function
- 
-
-
-
