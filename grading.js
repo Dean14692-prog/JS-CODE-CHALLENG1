@@ -1,7 +1,15 @@
 // Import prompt-sync to take input from the terminal
-const prompt = require("prompt-sync")();
+// I installed prompt-sync in my terminal to be able to input values at terminal
+//I used npm install prompt-sync command
+//I have several variable
+/* 
+1. Phase Marks
+2. Mean Mark
+3. Grade
+*/
 
 // Collect student name and phase marks
+const prompt = require("prompt-sync")();
 const studentName = prompt("Student Name: ");
 const Phase0 = parseFloat(prompt("Phase 0 Marks: "));
 const Phase1 = parseFloat(prompt("Phase 1 Marks: "));
@@ -40,5 +48,5 @@ const grade = getGrade(mean);
 console.log("\nMoringa School Student Results.");
 console.log("Software Engineering.");
 console.log(`${studentName}`);
-console.log(`Mean Marks: ${mean}`); // Display mean with 2 decimal places
+console.log(`Mean Marks: ${mean}`);
 console.log(`Grade: ${grade}`);
