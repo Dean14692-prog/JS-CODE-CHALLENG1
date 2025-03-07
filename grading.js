@@ -1,4 +1,4 @@
-// Import prompt-sync to take input from the terminal
+// I Imported prompt-sync to take input from the terminal
 // I installed prompt-sync in my terminal to be able to input values at terminal
 //I used npm install prompt-sync command
 //I have several variable
@@ -6,6 +6,7 @@
 1. Phase Marks
 2. Mean Mark
 3. Grade
+4. Student Name
 */
 
 // Collect student name and phase marks
