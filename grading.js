@@ -23,6 +23,24 @@ const Phase5 = parseFloat(prompt("Phase 5 Marks: "));
 function calculateMean(Phase0, Phase1, Phase2, Phase3, Phase4, Phase5) {
   return (Phase0 + Phase1 + Phase2 + Phase3 + Phase4 + Phase5) / 6;
 }
+const mean = calculateMean(Phase0, Phase1, Phase2, Phase3, Phase4, Phase5);
+
+//Invalid Results
+function invalidResults(Phase0) {
+  if (Phase0 >= 0 && Phase0 <= 100) {
+    return mean;
+  }
+  if (Phase1 >= 0 && Phase1 <= 100) {
+    return mean;
+
+  } else {
+    return "Invalid Marks";
+  }
+}
+
+
+
+const vague = invalidResults(Phase0, Phase1, Phase2, Phase3, Phase4, Phase5);
 
 // Function to determine grade
 function getGrade(mean) {
@@ -39,15 +57,11 @@ function getGrade(mean) {
   }
 }
 
-// Calculate mean
-const mean = calculateMean(Phase0, Phase1, Phase2, Phase3, Phase4, Phase5);
-
-// Get grade based on mean
 const grade = getGrade(mean);
 
-// Print results
 console.log("\nMoringa School Student Results.");
 console.log("Software Engineering.");
 console.log(`${studentName}`);
+console.log(`${vague}`);
 console.log(`Mean Marks: ${mean}`);
 console.log(`Grade: ${grade}`);

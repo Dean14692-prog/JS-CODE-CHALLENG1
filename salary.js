@@ -2,7 +2,7 @@ const prompt = require("prompt-sync")();
 const basic = parseFloat(prompt("Basic Salary(Ksh.): "));
 const benefit = parseFloat(prompt("Benefits(Ksh.): "));
 const commissions = parseFloat(prompt("Commission(Ksh.): "));
-const gross = basic + benefit + commissions; // Corrected Gross Salary Calculation
+const gross = basic + benefit + commissions;
 console.log(`Gross Salary: ${gross}`);
 
 const tier1 = 8000;
@@ -35,8 +35,8 @@ function calculateNssf(gross) {
   return totalNssf;
 }
 
-const nssf = calculateNssf(gross);
-console.log(`NSSF: ${nssf}`);
+const nssf = calculateNssf(gross); // creating nssf variable
+console.log(`NSSF: ${nssf}`);     //  printing the value of nssf
 
 // Function to calculate NHIF
 function calculateNhif(gross) {

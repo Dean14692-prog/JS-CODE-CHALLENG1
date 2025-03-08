@@ -5,11 +5,11 @@ const speed = parseFloat(prompt("Enter car speed (km/h): "));
 function checkSpeed(speed) {
   if (speed < speedLimit) {
     console.log("Ok");
-    return 0; // Return 0 demerit points if speed is below the limit
+    return 0; 
   } else {
     const demeritPoints = (speed - speedLimit) / 5;
     console.log(`Demerit Points: ${demeritPoints}`);
-    return demeritPoints; // Return the calculated demerit points
+    return demeritPoints; 
   }
 }
 const points = checkSpeed(speed); // Call Function
