@@ -25,23 +25,6 @@ function calculateMean(Phase0, Phase1, Phase2, Phase3, Phase4, Phase5) {
 }
 const mean = calculateMean(Phase0, Phase1, Phase2, Phase3, Phase4, Phase5);
 
-//Invalid Results
-function invalidResults(Phase0) {
-  if (Phase0 >= 0 && Phase0 <= 100) {
-    return mean;
-  }
-  if (Phase1 >= 0 && Phase1 <= 100) {
-    return mean;
-
-  } else {
-    return "Invalid Marks";
-  }
-}
-
-
-
-const vague = invalidResults(Phase0, Phase1, Phase2, Phase3, Phase4, Phase5);
-
 // Function to determine grade
 function getGrade(mean) {
   if (mean >= 79 && mean <= 100) {
