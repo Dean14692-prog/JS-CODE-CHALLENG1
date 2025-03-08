@@ -35,10 +35,10 @@ Write a program whose major task is to calculate an individual’s Net Salary by
 ## Features
 
 - Accepts user input for benefits, commission and salary
--Calculate Gross Salary
+- Calculate Gross Salary
 - Calculate deductions(NHIF, NSSF, PAYEE & HOUSE LEVY)
--Calculate net salary
--Print the payslip
+- Calculate net salary
+- Print the payslip
 
 ## Installation
 
