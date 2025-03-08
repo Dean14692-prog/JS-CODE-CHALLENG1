@@ -3,9 +3,9 @@
 Write a function that prompts the user to input student marks. The input should be between 0 and 100. The output should correspond to the correct grade, as shown below:
 
 - **A**: Greater than 79
-- **B**: 60 to 79
-- **C**: 50 to 59
-- **D**: 40 to 49
+- **B-**: 60 to 79
+- **C-**: 50 to 59
+- **D-**: 40 to 49
 - **E**: Less than 40
 
 ## Features
@@ -25,7 +25,7 @@ Write a program that takes the speed of a car as input e.g 80. If the speed is l
 ## Features
 
 - Accepts user input for marks
-  -Compares speed with the limit speed
+- Compares speed with the limit speed
 - Calculates the demerit Points
 
 # Net Salary Calculator (Toy Problem)
@@ -35,10 +35,10 @@ Write a program whose major task is to calculate an individual’s Net Salary by
 ## Features
 
 - Accepts user input for benefits, commission and salary
-  -Calculate Gross Salary
+-Calculate Gross Salary
 - Calculate deductions(NHIF, NSSF, PAYEE & HOUSE LEVY)
-  -Calculate net salary
-  -Print the payslip
+-Calculate net salary
+-Print the payslip
 
 ## Installation
 
