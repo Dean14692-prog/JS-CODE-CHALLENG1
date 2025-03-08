@@ -16,28 +16,44 @@ Write a function that prompts the user to input student marks. The input should 
 - Grades the average
 - Prints the results
 
+# Speed Detector (Toy Problem)
+
+Write a program that takes the speed of a car as input e.g 80. If the speed is less than 70, it should print “Ok”. Otherwise, for every 5 km/s above the speed limit (70), it should give the driver one demerit point and print the total number of demerit points.
+
+> For example, if the speed is 80, it should print: “Points: 2”. If the driver gets more than 12 points, the function should print: “License suspended”.
+
+## Features
+
+# Net Salary Calculator (Toy Problem)
+
+Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary.
+ 
+## Features
+
 ## Installation
 
-1. **Clone the Repository** 
-     ```bash
+1. **Clone the Repository**
+   ```bash
    git clone git@github.com:Dean14692-prog/JS-CODE-CHALLENG1.git
-   ```  
-2. **Navigate to the project directory**  
+   ```
+2. **Navigate to the project directory**
    ```bash
    cd JS-CODE-CHALLENG1
-   ```  
-3. **Open VS Code**  
+   ```
+3. **Open VS Code**
    ```bash
    code .
-   ```  
+   ```
 4. **Install Prompt sync**
+
 ```bash
 npm install prompt sync
 ```
-4. **Run the Code**  
+
+4. **Run the Code**
    ```bash
-   node grading.js
-   ```  
+   node filename.js
+   ```
 
 ## Usage
 
@@ -51,30 +67,35 @@ Contributions are welcome! Please follow this procedure to contribute:
 
 1. **Fork the Repository**
 2. **Create a new branch for your feature**
-```bash 
+
+```bash
 git checkout -b features/your-features
 ```
+
 3. **Commit your changes**
+
 ```bash
 git commit -m "Changes"
 ```
+
 4. **Push to your fork**
+
 ```bash
 git push origin main
 ```
-5. **Submit a pull request**
 
+5. **Submit a pull request**
 
 ## License
 
 This project is licensed under the MIT License.
 
 ## Contact
+
 Name: Dennis M. Ngui
 
 email: dennisngui07@gmail.com
 
 ## Project Link
+
 https://github.com/Dean14692-prog/JS-CODE-CHALLENG1/tree/main
-
-
