@@ -30,9 +30,13 @@ Write a function that prompts the user to input student marks. The input should 
    ```bash
    code .
    ```  
+4. **Install Prompt sync**
+```bash
+npm install prompt sync
+```
 4. **Run the Code**  
    ```bash
-   node student_grade_generator.js
+   node grading.js
    ```  
 
 ## Usage
@@ -47,10 +51,29 @@ Contributions are welcome! Please follow this procedure to contribute:
 
 1. **Fork the Repository**
 2. **Create a new branch for your feature**
+```bash 
+git checkout -b features/your-features
+```
 3. **Commit your changes**
+```bash
+git commit -m "Changes"
+```
 4. **Push to your fork**
+```bash
+git push origin main
+```
 5. **Submit a pull request**
+
 
 ## License
 
 This project is licensed under the MIT License.
+
+## Contact
+Name: Dennis M. Ngui
+email: dennisngui07@gmail.com
+
+## Project Link
+https://github.com/Dean14692-prog/JS-CODE-CHALLENG1/tree/main
+
+
