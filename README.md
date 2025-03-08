@@ -24,11 +24,21 @@ Write a program that takes the speed of a car as input e.g 80. If the speed is l
 
 ## Features
 
+- Accepts user input for marks
+  -Compares speed with the limit speed
+- Calculates the demerit Points
+
 # Net Salary Calculator (Toy Problem)
 
 Write a program whose major task is to calculate an individual’s Net Salary by getting the inputs of basic salary and benefits. Calculate the payee (i.e. Tax), NHIF Deductions, NSSF Deductions, gross salary, and net salary.
- 
+
 ## Features
+
+- Accepts user input for benefits, commission and salary
+  -Calculate Gross Salary
+- Calculate deductions(NHIF, NSSF, PAYEE & HOUSE LEVY)
+  -Calculate net salary
+  -Print the payslip
 
 ## Installation
 
