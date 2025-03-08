@@ -18,8 +18,8 @@ Write a function that prompts the user to input student marks. The input should 
 
 ## Installation
 
-1. **Clone the Repository**  
-   ```bash
+1. **Clone the Repository** 
+     ```bash
    git clone git@github.com:Dean14692-prog/JS-CODE-CHALLENG1.git
    ```  
 2. **Navigate to the project directory**  
