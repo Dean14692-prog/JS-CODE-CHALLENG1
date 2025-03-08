@@ -71,6 +71,7 @@ This project is licensed under the MIT License.
 
 ## Contact
 Name: Dennis M. Ngui
+
 email: dennisngui07@gmail.com
 
 ## Project Link
